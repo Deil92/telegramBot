@@ -1,0 +1,4435 @@
+============[Date]============
+[ 2018-06-17 15:36:37  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(9): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 15:37:09  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(9): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 15:37:16  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(9): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 15:37:34  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(9): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 15:37:45  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(9): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 16:15:21  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: message text is empty
+=========[Sent Data]==========
+[ref]
+ref.update_id= 444908293
+ref.message.message_id= 77
+ref.message.from.id= 71815175
+ref.message.from.is_bot= false
+ref.message.from.first_name= Deil
+ref.message.from.language_code= ru
+ref.message.chat.id= 71815175
+ref.message.chat.first_name= Deil
+ref.message.chat.type= private
+ref.message.date= 1529241305
+ref.message.text= /start
+ref.message.entities.0.offset= 0
+ref.message.entities.0.length= 6
+ref.message.entities.0.type= bot_command
+
+
+[ref]
+ref.reply_markup= {"keyboard":[["\u0414\u0430","\u041d\u0435\u0442"]],"one_time_keyboard":false,"resize_keyboard":false,"selective":true}
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(178): Telegram->endpoint('sendMessage', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(23): Telegram->sendMessage(Array)
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 16:19:12  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(9): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 16:19:18  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(9): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 16:19:22  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(9): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 16:19:26  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 444908298
+ref.limit= 1
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2968): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(9): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 16:19:32  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(9): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 16:19:36  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(9): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 16:19:46  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(9): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 16:19:50  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(9): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 16:19:50  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(9): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 16:20:03  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(9): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 16:20:07  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(9): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 16:20:10  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(9): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 16:20:17  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(9): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 16:20:20  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(9): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 16:20:20  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(9): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 16:20:31  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(9): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 16:20:35  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(9): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 16:20:39  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(9): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 16:20:45  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(9): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 16:20:48  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(9): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 16:21:03  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(9): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 16:21:07  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(9): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 16:21:11  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(9): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 16:21:59  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(9): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 16:22:02  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(9): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 16:22:03  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(9): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 16:22:09  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(9): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 16:22:12  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(9): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 16:22:16  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(9): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 16:22:46  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(9): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 16:22:49  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(9): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 16:22:53  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(9): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 16:23:10  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(9): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 16:23:13  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(9): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 16:23:14  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(9): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 16:23:20  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(9): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 16:23:24  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(9): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 16:23:27  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(9): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 16:23:34  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(9): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 16:23:37  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(9): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 16:23:37  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(9): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 16:23:44  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(9): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 16:23:47  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(9): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 16:23:51  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(9): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 16:24:07  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(9): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 16:24:10  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(9): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 16:24:14  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(9): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 16:24:21  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(9): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 16:24:24  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(9): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 16:24:28  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(9): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 16:24:34  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(9): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 16:24:38  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(9): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 16:24:41  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(9): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 16:24:48  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(9): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 16:24:51  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(9): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 16:24:57  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(9): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 16:25:03  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(9): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 16:25:07  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(9): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 16:25:07  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(9): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 16:25:13  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(9): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 16:25:17  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(9): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 16:25:20  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(9): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 16:25:27  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(9): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 16:25:30  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(9): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 16:25:34  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(9): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 16:25:40  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(9): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 16:25:44  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(9): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 16:25:47  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(9): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 16:26:01  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(9): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 16:26:05  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(9): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 16:26:08  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(9): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 16:26:15  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(9): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 16:26:18  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(9): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 16:26:22  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(9): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 16:26:35  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(9): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 16:26:38  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(9): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 16:26:38  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(9): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 17:38:14  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(16): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 17:38:19  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 444908307
+ref.limit= 1
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2968): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(16): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 17:39:04  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(16): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 17:48:06  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(16): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 17:48:13  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(16): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 17:48:41  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(16): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 17:48:45  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(16): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 17:48:45  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(16): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 17:48:52  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(16): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 17:49:31  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(16): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 17:49:46  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(16): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 17:49:53  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(16): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 17:49:56  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(16): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 17:50:00  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(16): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 17:50:03  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(16): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 17:50:05  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(16): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 17:50:13  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(16): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 17:50:17  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(16): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 17:50:18  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(16): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 17:50:25  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(16): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 17:50:28  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(16): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 17:51:07  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(16): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 17:51:11  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(16): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 17:51:13  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(16): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 17:51:18  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(16): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 17:51:21  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(16): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 17:51:22  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(16): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 17:51:29  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(16): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 18:08:08  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+curl_error_code:		7
+curl_error:			False
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(16): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 18:08:11  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+curl_error_code:		7
+curl_error:			False
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(16): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 18:08:14  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+curl_error_code:		7
+curl_error:			False
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(16): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 18:08:17  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+curl_error_code:		7
+curl_error:			False
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(16): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 18:08:20  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+curl_error_code:		7
+curl_error:			False
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(16): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 18:08:24  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+curl_error_code:		7
+curl_error:			False
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(16): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 18:08:27  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+curl_error_code:		7
+curl_error:			False
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(16): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 18:11:52  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(16): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 18:42:18  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(16): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 18:42:35  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(16): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 18:42:50  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(16): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 18:43:10  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(16): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 18:43:16  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(16): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 18:43:31  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(16): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 18:43:40  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(16): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 18:43:50  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(16): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 18:44:02  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 444908344
+ref.limit= 1
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2968): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(16): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 18:44:13  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(16): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 18:44:17  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(16): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 18:44:22  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(16): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 18:44:29  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(16): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 18:44:29  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(16): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 18:44:34  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(16): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 18:44:38  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(16): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 18:44:45  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(16): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 18:44:53  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(16): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 18:44:59  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(16): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 18:45:04  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(16): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 18:45:04  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(16): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 18:45:08  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(16): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 18:45:13  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(16): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 18:45:16  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(16): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 18:45:18  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(16): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 18:45:20  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(16): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 18:45:22  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(16): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 18:45:25  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(16): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 18:45:28  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(16): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 18:45:32  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(16): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 18:45:34  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(16): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 18:45:34  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(16): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 18:45:39  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(16): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 18:45:42  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(16): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 18:45:45  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(16): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 18:45:45  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(16): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 18:45:50  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(16): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 18:45:54  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(16): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 18:45:54  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(16): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 18:45:56  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(16): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 18:45:59  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(16): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 18:46:02  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(16): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 18:46:05  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(16): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 18:46:06  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(16): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 18:46:07  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(16): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 18:46:10  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(16): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 18:46:11  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(16): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 18:46:14  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(16): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 18:46:15  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(16): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 18:46:20  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(16): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 18:46:24  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(16): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 18:46:24  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(16): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 18:46:26  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(16): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 18:46:31  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(16): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 18:46:34  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(16): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 18:46:35  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(16): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 18:46:42  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(16): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 18:46:47  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(16): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 18:46:51  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(16): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 18:46:53  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(16): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 18:46:57  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(16): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 18:47:02  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(16): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 18:47:06  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(16): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 18:47:10  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(16): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 18:47:10  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(16): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 18:47:11  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(16): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 18:47:16  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(16): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 18:47:19  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(16): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 18:47:22  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(16): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 18:47:22  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(16): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 18:47:26  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(16): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 18:47:28  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(16): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 18:47:35  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(16): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 18:47:38  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(16): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 18:47:39  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(16): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 18:47:40  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(16): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 18:47:43  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(16): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 18:47:49  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(16): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 18:47:52  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(16): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 18:47:56  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(16): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 18:48:00  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(16): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 18:48:01  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(16): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 18:48:04  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(16): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 18:48:05  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(16): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 18:48:10  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(16): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 18:48:13  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(16): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 18:48:13  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(16): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 18:48:16  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(16): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 18:48:19  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(16): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 18:48:24  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(16): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 18:48:26  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(16): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 18:48:27  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(16): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 18:48:30  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(16): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 18:48:33  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(16): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 18:48:37  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(16): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 18:48:39  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(16): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 18:48:39  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(16): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 18:48:42  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(16): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 18:48:48  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(16): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 18:48:53  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(16): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 18:48:57  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(16): Telegram->getUpdates()
+#4 {main}
+
+============[Date]============
+[ 2018-06-17 18:48:59  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		409
+description:		Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+=========[Sent Data]==========
+[ref]
+ref.offset= 0
+ref.limit= 100
+ref.timeout= 0
+
+
+============[Trace]===========
+#0 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(3057): TelegramErrorLogger::log(Array, Array)
+#1 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(93): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /Applications/MAMP/htdocs/botnew/vendor/eleirbag89/telegrambotphp/Telegram.php(2963): Telegram->endpoint('getUpdates', Array)
+#3 /Applications/MAMP/htdocs/botnew/index.php(16): Telegram->getUpdates()
+#4 {main}
+
