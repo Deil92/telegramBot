@@ -11,9 +11,25 @@ class ComposerStaticInit1b61a8dcb78f64b3a14ab17ba1808d92
         '221a7c0887f892e44dd08191321d3815' => __DIR__ . '/..' . '/eleirbag89/telegrambotphp/TelegramErrorLogger.php',
     );
 
+    public static $prefixLengthsPsr4 = array (
+        'a' => 
+        array (
+            'app\\' => 4,
+        ),
+    );
+
+    public static $prefixDirsPsr4 = array (
+        'app\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/app',
+        ),
+    );
+
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
+            $loader->prefixLengthsPsr4 = ComposerStaticInit1b61a8dcb78f64b3a14ab17ba1808d92::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit1b61a8dcb78f64b3a14ab17ba1808d92::$prefixDirsPsr4;
 
         }, null, ClassLoader::class);
     }
